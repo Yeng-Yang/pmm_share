@@ -77,6 +77,7 @@
     
 </body>
 
+
     <script src="https://cdn.datatables.net/1.11.2/js/dataTables.bootstrap5.min.js"></script>
     <script src="https://cdn.datatables.net/searchbuilder/1.2.1/js/dataTables.searchBuilder.min.js"></script>
     <script src="https://cdn.datatables.net/searchbuilder/1.2.1/js/searchBuilder.bootstrap5.min.js"></script>
@@ -107,6 +108,7 @@
                     render: function (data, type, row, meta) {
                         return '<a href="' + data + '" target="_blank"><img src="' + data + '" alt="thumbnail image" width="60px" height="70px"></a>';
                     },
+                },
                 { title: "ລະຫັດ ID ສະມາຊິກ" },
                 { title: "ຊື່ ແລະ ນາມສະກຸນ" },
                 { title: "ທີ່ຢູ່ນ" },
@@ -115,7 +117,6 @@
                 { title: "ຖວາຍພິເສດສຳລັບຄ່າໃຊ້ຈ່າຍໂບດ" },
                 { title: "ລວມເງິນ" },
                 
-                },
             ],
             language: {
                 sProcessing: "กำลังดำเนินการ...",
